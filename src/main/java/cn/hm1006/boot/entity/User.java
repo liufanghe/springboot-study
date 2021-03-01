@@ -1,0 +1,1 @@
+package cn.hm1006.boot.entity;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;/** * @author : Two * @version : v1.0 * @description TODO * @date : 2021/3/1 11:57 */@Data@AllArgsConstructor@NoArgsConstructorpublic class User {    private String name;    private Integer age;}
