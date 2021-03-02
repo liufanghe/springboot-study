@@ -1,0 +1,1 @@
+package cn.hm1006.boot.mapper;import cn.hm1006.boot.entity.Air;import org.apache.ibatis.annotations.Param;import java.util.List;/** * @author : Two * @version : v1.0 * @description TODO * @date : 2021/3/1 17:15 */public interface AirMapper {    List<Air> findAll();    Air findbyId(@Param("id") Integer id);}

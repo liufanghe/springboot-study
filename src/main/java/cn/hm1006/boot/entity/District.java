@@ -1,0 +1,1 @@
+package cn.hm1006.boot.entity;import lombok.Data;import java.io.Serializable;@Datapublic class District  implements Serializable {	private Integer id;	private String name;}
